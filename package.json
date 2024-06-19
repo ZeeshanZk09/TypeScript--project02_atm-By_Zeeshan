@@ -1,0 +1,17 @@
+{
+  "name": "@zeeshanzk09/typescript-project02_atm",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "I created an atm machine using typescript",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.14.5"
+  }
+}
