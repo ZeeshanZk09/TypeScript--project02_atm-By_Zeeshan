@@ -2,16 +2,23 @@
   "name": "@zeeshanzk09/typescript-project02_atm",
   "version": "1.0.0",
   "main": "main.js",
+  "bin": "main.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Zeeshan Khan-Arish",
   "license": "ISC",
-  "description": "I created an atm machine using typescript",
+  "description": "I created an atm machine using typescript with the features of withdraw, checkbalance, Deposit and Exit. The current balance of the user is set to $10000. You may either enter manually the amount you want to  withdraw or enter the preferred amount numbers that are 2000, 4000, 6000, 8000 and 10000. The pin of the atm machine is 65978 which is set for the current user.",
   "devDependencies": {
     "@types/inquirer": "^9.0.7",
     "@types/node": "^20.14.5"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.23"
   }
 }
