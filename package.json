@@ -19,6 +19,7 @@
     "@types/node": "^20.14.5"
   },
   "dependencies": {
+    "@zeeshankhan09/typescript-project02_atm": "^1.0.0",
     "inquirer": "^9.2.23"
   }
 }
